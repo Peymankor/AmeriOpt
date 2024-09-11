@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ameriopt"
-version = "0.1.4"
+version = "0.1.5"
 description = "This is a package for pricing American options using reinforcement learning"
 authors = ["Peyman Kor <kor.peyman@gmail.com>"]
 license = "MIT"

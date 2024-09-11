@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "ameriopt"
+version = "0.1.1"
+description = "Extension of pandera type checking"
+authors = ["Peyman Kor <kor.peyman@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/Peymankor/AmeriOpt"
+keywords = ["pandera", "schema", "pandas"]
+classifiers = [
+    "Topic :: Scientific/Engineering",
+]
+
+[tool.poetry.dependencies]
+python = "~3.10"
+pandas = "*"
+pandera = ">= 0.19.3"
+
+pytest = ">= 7.4.0"
+
+[build-system]
+requires = [
+    "poetry-core"
+]
+build-backend = "poetry.core.masonry.api"

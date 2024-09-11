@@ -3,11 +3,12 @@ A Python Package for Pricing American Option
 
 ## Installation
 ```bash
-pip install AmeriOpt
+pip install ameriopt
 ```
 
 ## Usage
 ```python
-from AmeriOpt import AmeriOpt
+
+from ameriopt.rl_policy import RLPolicy
 
 ```

@@ -1,21 +1,19 @@
 [tool.poetry]
 name = "ameriopt"
 version = "0.1.1"
-description = "Extension of pandera type checking"
+description = "This is a package for pricing American options using reinforcement learning"
 authors = ["Peyman Kor <kor.peyman@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 repository = "https://github.com/Peymankor/AmeriOpt"
-keywords = ["pandera", "schema", "pandas"]
+keywords = ["pandas"]
 classifiers = [
     "Topic :: Scientific/Engineering",
 ]
 
 [tool.poetry.dependencies]
-python = "~3.10"
+python = ">=3.10"
 pandas = "*"
-pandera = ">= 0.19.3"
-
 pytest = ">= 7.4.0"
 
 [build-system]

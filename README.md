@@ -1,8 +1,11 @@
 # AmeriOpt
 A Python Package for Pricing American Option using Reinforcement Learning.
 
-To use package, you need to follwo the following steps:
+The full documentation of paper can be found in  [https://www.mdpi.com/1999-4893/17/9/400](https://www.mdpi.com/1999-4893/17/9/400)
 
+![image info](example_mainimage.png)
+
+To use package, you need to follwo the following steps:
 
 ## Installation
 ```bash
@@ -20,7 +23,7 @@ from ameriopt.rl_policy import RLPolicy
 
 ## Set the parameters of GBM model
 
-*- Number of Laguerre polynomials to be used in the RL model
+- Number of Laguerre polynomials to be used in the RL model
 
 ```python
 NUM_LAGUERRE = 5

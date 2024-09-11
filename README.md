@@ -3,7 +3,7 @@ A Python Package for Pricing American Option using Reinforcement Learning.
 
 The full documentation of paper can be found in  [https://www.mdpi.com/1999-4893/17/9/400](https://www.mdpi.com/1999-4893/17/9/400)
 
-![image info](example_mainimage.png)
+![image info](https://raw.githubusercontent.com/Peymankor/AmeriOpt/main/example_mainimage.png)
 
 To use package, you need to follwo the following steps:
 

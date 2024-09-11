@@ -9,4 +9,5 @@ pip install AmeriOpt
 ## Usage
 ```python
 from AmeriOpt import AmeriOpt
+
 ```
